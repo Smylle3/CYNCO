@@ -4,12 +4,26 @@
 
 .main {
   min-height: 100vh;
+  width: 100%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+
+  position: fixed;
+  top: 0px;
+  width: 80%;
 }
 
 .footer {
@@ -19,6 +33,9 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 80%;
 }
 
 .footer a {
